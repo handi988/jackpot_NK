@@ -1,0 +1,10 @@
+#machine1, #machine2, #machine3
+{
+ border: 2px solid black;
+font-size: 3em;
+}
+#resultat
+{
+    color: red;
+    font-weight: bold;
+}
