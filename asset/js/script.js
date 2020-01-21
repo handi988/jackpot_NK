@@ -40,6 +40,7 @@ var resultat2 = document.getElementById('machine2').innerHTML = chiffre[triB]
  //Si les jetons son superieur à zero le jeu continue
   if (jouer <= 0 ){
         if(confirm(" Tu n'as plus de credit ! veux tu remiser ? ")) {
+          document.location.reload(true)
 
         }
 
