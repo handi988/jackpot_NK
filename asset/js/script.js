@@ -13,6 +13,9 @@ function rendom (){
   jouer = jouer - 1
   $('#resultat').empty()
   $('#mise').html('Nombre de jeton restant ' +jouer)
+  $('#machine1').css('color','black')
+      $('#machine2').css('color','black')
+       $('#machine3').css('color','black')
 
 
   
@@ -55,6 +58,9 @@ else {
         $('#compteurTotal').html("Votre nombre de partie " + total)
         $('#compteurWin').html("Votre Nombre de Victoire " + win) 
         $('#compteurloss').html("Votre Nombre de perdu " + loss)
+        $('#machine1').css('color','green')
+        $('#machine2').css('color','green')
+        $('#machine3').css('color','green')
 
       }
         
